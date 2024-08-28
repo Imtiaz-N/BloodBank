@@ -1,0 +1,37 @@
+/* Center the links */
+.NavLinks {
+    justify-content: center;
+    flex: 1; /* Ensure it takes up the full width */
+  }
+  
+  /* Additional styling */
+  .Container {
+    background-color: #123456; /* Custom background color */
+  }
+  
+  .NavbarBrand {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .NavLink {
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .NavLink:hover {
+    color: #ffcc00;
+  }
+  
+  .FormControl {
+    border-radius: 0;
+    
+  }
+  
+  .SearchButton {
+    border: none;
+    background-color: #62ace8;
+    color: #123456;
+  }
+  
