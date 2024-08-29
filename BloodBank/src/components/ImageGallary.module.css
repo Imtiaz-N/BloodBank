@@ -1,0 +1,20 @@
+.galleryContainer {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .imageRow {
+    display: flex;
+    flex-direction: row-reverse;
+    animation: scrollLeft 20s linear infinite;
+  }
+  
+  @keyframes scrollLeft {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

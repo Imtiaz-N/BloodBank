@@ -35,7 +35,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a className={`nav-link ${styles.NavLink}`} href="#">
-                  Gllary
+                  Gallary
                 </a>
               </li>
             </ul>

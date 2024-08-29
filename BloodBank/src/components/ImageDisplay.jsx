@@ -1,10 +1,10 @@
 import React from 'react';
-import './ImageDisplay.module.css'; // Import the CSS file for styling
+import styles from './ImageDisplay.module.css';
 
-const ImageDisplay = ({ imageSrc}) => {
+const ImageDisplay = ({ imageSrc, altText }) => {
   return (
-    <div className="image-card">
-      <img src={imageSrc}  className="image" />
+    <div className={styles.imageCard}>
+      <img src={imageSrc} alt={altText || "Image"} className={styles.image} />
     </div>
   );
 };

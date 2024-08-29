@@ -1,14 +1,24 @@
-import { useState } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
-import ImageDisplay from "./components/ImageDisplay";
 import "./App.css";
+import ImageGallery from "./components/ImageGallary";
 
 function App() {
+  const Images=[
+    '/d1.jpg',
+    '/d3.jpg',
+    '/d3.jpg',
+    '/d4.jpg',
+    '/d5.jpg'
+  ];
   return (
     <>
       <Navbar />
-      <ImageDisplay imageSrc="./d1.jpg" />
+      <ImageGallery images={Images}></ImageGallery>
+      
+      
+      
     </>
   );
 }
